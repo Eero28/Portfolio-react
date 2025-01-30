@@ -1,0 +1,40 @@
+
+
+.footer {
+    width: 100%;
+    height: 220px;
+    background: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    p {
+        color: whitesmoke;
+        font-size: larger;
+        margin-top: 30px;
+    }
+}
+
+.socialMedia {
+    display: flex;
+    gap: 3em;
+
+    svg {
+        color: white;
+        font-size: 40px;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .footer svg {
+        font-size: 30px;
+    }
+}

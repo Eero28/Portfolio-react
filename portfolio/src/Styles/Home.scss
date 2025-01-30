@@ -1,0 +1,191 @@
+* {
+    list-style: none;
+}
+
+.home {
+    align-items: center;
+    color: #3e497a;
+}
+
+.home h1 {
+
+    color: whitesmoke;
+    background-color: #0d1117;
+    margin: 0;
+}
+
+html {
+    list-style: none;
+}
+
+.about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d1117;
+    color: #f0f0f0;
+
+    h3 {
+        color: whitesmoke;
+        font-size: 37px;
+        margin-top: 1em;
+    }
+
+    p {
+        font-size: 32px;
+    }
+
+    span {
+        padding: 1em;
+        font-size: 1.3em;
+    }
+
+    img {
+        margin-top: 2em;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+
+
+
+}
+
+
+
+.prompt {
+    font-size: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0.5em;
+    flex-wrap: wrap;
+    background-color: #0d1117;
+    padding: 1em;
+    margin-bottom: 2em;
+    gap: 1em;
+}
+
+
+.socialContainer{
+    width: 4%;
+}
+
+.socialContainer:hover .hiddenTip{
+    opacity: 1;
+}
+
+
+
+
+.hiddenTip{
+    opacity: 0;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.3em;
+    font-size: medium;
+    transition: 0.4s;
+}
+
+
+
+
+
+.skills {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #0d1117;
+    padding: 2em;
+
+    .skillsItem {
+        width: 300px;
+        height: 200px;
+        min-width: 100px;
+        flex-grow: 1;
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-size: 3em;
+        padding: 0.4em;
+        color: black;
+    }
+
+
+    .skill-title {
+        font-size: 2em;
+        color: #7b8ead;
+    
+    }
+    
+    .skill-desc {
+        font-size: 22px;
+        color: whitesmoke;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .skills {
+        flex-direction: column;
+
+        h2{
+            font-size: 30px;
+        }
+    }
+
+    .socialContainer{
+        width: 10%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .about h2 {
+        font-size: 40px;
+    }
+
+    .about .prompt {
+        margin-top: 10px;
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .skills {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .list {
+        padding: 0;
+    }
+
+    .skills h2 {
+        font-size: 30px;
+    }
+
+    .skill-desc {
+        font-size: 20px;
+    }
+
+    .socialContainer{
+        width: 15%;
+    }
+}
