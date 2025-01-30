@@ -3,6 +3,7 @@ import Picture from "../Assets/Jeero.jpg"
 import { skillList } from "../helpers/Skills"
 import { SocialIcon } from 'react-social-icons';
 function Home() {
+  console.log("helloo")
   return (
     <main className='home'>
       <section className='about'>
@@ -16,7 +17,7 @@ function Home() {
         
         <div className='d-flex flex-column align-items-center socialContainer'>
         <span className='hiddenTip mb-3'>Github</span>
-          <SocialIcon className='socialLink' target="_blank" url="https://github.com/Eero556" fgColor='white' />
+          <SocialIcon className='socialLink' target="_blank" url="https://github.com/Eero28" fgColor='white' />
         </div>
         <div className='d-flex flex-column align-items-center ml-4 socialContainer'>
           <span className='hiddenTip mb-3'>Email</span>

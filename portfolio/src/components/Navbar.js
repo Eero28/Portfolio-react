@@ -25,9 +25,9 @@ function Navbar() {
         <button className='hamburger' onClick={button_logic}><Button /></button>
         <button onClick={button_logic} className='cross'><Clear /></button>
       </div>
-      <Link to={'Portfolio_/'} className="navbar-name">Eero Kantonen</Link>
+      <Link to={'/Portfolio-react'} className="navbar-name">Eero Kantonen</Link>
       <div className='linkss'>
-        <NavLink to={'Portfolio_/'}>Home</NavLink>
+        <NavLink to={'/Portfolio-react'}>Home</NavLink>
         <NavLink to={"/projects"}>Projects</NavLink>
         <NavLink to={"/experience"}>Experience</NavLink>
         
