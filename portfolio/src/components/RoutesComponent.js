@@ -9,7 +9,7 @@ function RoutesComponent() {
 
     return (
             <Routes>
-                <Route path='Portfolio_/' element={<Home />} />
+                <Route path='Portfolio-react' element={<Home />} />
                 <Route path='/projects' element={<Projects />} />
                 <Route path='project/:id' element={<ProjectDisplay />} />
                 <Route path='/experience' element={<Experience />} />
