@@ -1,20 +1,20 @@
-import React from 'react'
-import Home from "../pages/Home"
-import Experience from "../pages/Experience"
-import Projects from "../pages/projects"
-import ProjectDisplay from '../pages/ProjectDisplay';
-import { Route, Routes } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import Projects from "./Projects";
+import ProjectDisplay from "./ProjectDisplay";
+import Experience from "./Experience";
 
-function RoutesComponent() {
-
-    return (
-            <Routes>
-                <Route path='Portfolio-react' element={<Home />} />
-                <Route path='/projects' element={<Projects />} />
-                <Route path='project/:id' element={<ProjectDisplay />} />
-                <Route path='/experience' element={<Experience />} />
-            </Routes>
-    )
+function App() {
+  return (
+    <Router basename="/Portfolio-react">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/project/:id" element={<ProjectDisplay />} />
+        <Route path="/experience" element={<Experience />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default RoutesComponent
+export default App;
