@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-react/static/css/main.77b4e283.css",
-    "main.js": "/Portfolio-react/static/js/main.b7a3b6a4.js",
+    "main.css": "/Portfolio-react/static/css/main.605ba8a7.css",
+    "main.js": "/Portfolio-react/static/js/main.dc4bad48.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio-react/static/js/787.1ed0c42c.chunk.js",
     "static/media/leaflet.PNG": "/Portfolio-react/static/media/leaflet.ccf3ba08a68bd3483ee4.PNG",
     "static/media/Jeero.jpg": "/Portfolio-react/static/media/Jeero.6c0ba6f2d7e3266eca79.jpg",
@@ -11,12 +11,12 @@
     "static/media/React-weather.PNG": "/Portfolio-react/static/media/React-weather.c66eb6c17072807762f7.PNG",
     "static/media/youtube.PNG": "/Portfolio-react/static/media/youtube.1cebb0ca7ceb0384767f.PNG",
     "index.html": "/Portfolio-react/index.html",
-    "main.77b4e283.css.map": "/Portfolio-react/static/css/main.77b4e283.css.map",
-    "main.b7a3b6a4.js.map": "/Portfolio-react/static/js/main.b7a3b6a4.js.map",
+    "main.605ba8a7.css.map": "/Portfolio-react/static/css/main.605ba8a7.css.map",
+    "main.dc4bad48.js.map": "/Portfolio-react/static/js/main.dc4bad48.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio-react/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77b4e283.css",
-    "static/js/main.b7a3b6a4.js"
+    "static/css/main.605ba8a7.css",
+    "static/js/main.dc4bad48.js"
   ]
 }
