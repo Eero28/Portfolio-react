@@ -4,6 +4,7 @@ import reactWeather from "../Assets/React-weather.PNG"
 import movienative from "../Assets/movie-native.PNG"
 import crypto from "../Assets/crypto.PNG"
 import youtube from "../Assets/youtube.PNG"
+import ReviewApp from '../Assets/ReviewApp.jpg'
 export const projectList = [
     {
         name: "Bowshop app",
@@ -59,6 +60,16 @@ export const projectList = [
         link: "https://github.com/Eero556/Youtube2mp3/tree/main",
         video:"https://www.veed.io/embed/600a8e62-eb94-4267-bc3f-f9a140a10bbf",
         date: "14.1.2023"
+
+    },
+    {
+        name:"ReviewApp",
+        skills:"React Native, Typescript, NestJS, PostgreSQL",
+        image: ReviewApp,
+        about: "Make ReviewApp where users can comment and make reviews",
+        link: "https://github.com/Eero28/ReviewApp",
+        video:"",
+        date: "5.1.2025"
 
     },
     {
