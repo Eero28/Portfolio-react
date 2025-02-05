@@ -3,7 +3,6 @@ import Picture from "../Assets/Jeero.jpg"
 import { skillList } from "../helpers/Skills"
 import { SocialIcon } from 'react-social-icons';
 function Home() {
-  console.log("helloo")
   return (
     <main className='home'>
       <section className='about'>
