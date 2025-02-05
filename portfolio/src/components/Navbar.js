@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { NavLink, useLocation, Link } from "react-router-dom"
-import Button from "@material-ui/icons/Reorder"
-import Clear from "@material-ui/icons/Clear"
+import ReorderIcon from '@mui/icons-material/Reorder';
+import ClearIcon from '@mui/icons-material/Clear';
+
 
 
 function Navbar() {
@@ -22,8 +23,8 @@ function Navbar() {
     <nav className='navbarContainer' id={expandNavbar ? "open" : "close"}>
 
       <div className='toggleButton'>
-        <button className='hamburger' onClick={button_logic}><Button /></button>
-        <button onClick={button_logic} className='cross'><Clear /></button>
+        <button className='hamburger' onClick={button_logic}><ReorderIcon /></button>
+        <button onClick={button_logic} className='cross'><ClearIcon /></button>
       </div>
       <Link to={'/Portfolio-react'} className="navbar-name">Eero Kantonen</Link>
       <div className='linkss'>

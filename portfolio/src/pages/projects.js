@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectItem from '../components/ProjectItem'
 import {projectList} from "../helpers/ProjectList"
-function projects() {
+function Projects() {
   return (
     <section className='projects'>
       <h1 className='projectsHeader'> My projects</h1>
@@ -14,4 +14,4 @@ function projects() {
   )
 }
 
-export default projects
+export default Projects

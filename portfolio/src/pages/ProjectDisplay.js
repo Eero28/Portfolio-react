@@ -1,7 +1,7 @@
 import React from 'react'
 import {useParams} from "react-router-dom"
 import {projectList} from "../helpers/ProjectList"
-import GitHub from '@material-ui/icons/GitHub';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import {Link} from "react-router-dom"
 
 function ProjectDisplay() {
@@ -17,7 +17,7 @@ function ProjectDisplay() {
         <h1>About</h1>
         <p>{project.about}</p>
         <div>
-          <a href={project.link}><GitHub/><label>source code</label></a>
+          <a href={project.link}><GitHubIcon/><label>source code</label></a>
         </div>
         <Link className='link' to={"/projects"}><button>Back to Projects</button></Link>
     </section>
