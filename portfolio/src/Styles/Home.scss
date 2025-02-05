@@ -8,7 +8,6 @@
 }
 
 .home h1 {
-
     color: whitesmoke;
     background-color: #0d1117;
     margin: 0;
@@ -44,15 +43,12 @@ html {
 
     img {
         margin-top: 2em;
-        width: 350px;   
-        height: 350px;  
-        border-radius: 50%;  
-        object-fit: cover;  
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        object-fit: cover;
     }
 }
-
-
-
 
 .prompt {
     font-size: 30px;
@@ -67,19 +63,15 @@ html {
     gap: 1em;
 }
 
-
-.socialContainer{
+.socialContainer {
     width: 4%;
 }
 
-.socialContainer:hover .hiddenTip{
+.socialContainer:hover .hiddenTip {
     opacity: 1;
 }
 
-
-
-
-.hiddenTip{
+.hiddenTip {
     opacity: 0;
     color: black;
     background-color: white;
@@ -88,7 +80,6 @@ html {
     font-size: medium;
     transition: 0.4s;
 }
-
 
 .skills {
     width: 100%;
@@ -105,8 +96,8 @@ html {
         width: 300px;
         height: 200px;
         min-width: 100px;
-        flex-grow: 1;
-        margin-top: 10px;
+        margin-top: 20px;
+        flex: 1 1 calc(33.333% - 20px);
     }
 
     h1 {
@@ -115,47 +106,39 @@ html {
         color: black;
     }
 
-
     .skill-title {
         font-size: 2em;
         color: #7b8ead;
-    
     }
-    
+
     .skill-desc {
         font-size: 22px;
         color: whitesmoke;
     }
 }
 
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 1200px) {
-    .skills {
-        flex-direction: column;
-
-        h2{
-            font-size: 30px;
-        }
+@media (max-width: 1200px) {
+    .skillsItem {
+        flex: 1 1 calc(50% - 20px);
     }
-
-    .socialContainer{
-        width: 10%;
-    }
-
-    
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 796px) {
+
     .about h2 {
         font-size: 40px;
+    }
+
+    .about h3 {
+        font-size: 22px;
+    }
+
+    .about p {
+        font-size: 20px;
+    }
+
+    .about span {
+        font-size: 18px;
     }
 
     .about .prompt {
@@ -164,10 +147,16 @@ html {
         width: 80%;
     }
 
+    .about img {
+        width: 250px;
+        height: 250px;
+    }
+
     .skills {
         text-align: center;
         flex-direction: column;
     }
+
 
     .list {
         padding: 0;
@@ -181,7 +170,11 @@ html {
         font-size: 20px;
     }
 
-    .socialContainer{
+    .skill-title {
+        font-size: 24px !important;
+    }
+
+    .socialContainer {
         width: 15%;
     }
 }

@@ -8,7 +8,7 @@ export const skillList = [
     },
     {
         Title: "Back-End",
-        Desc: "NodeJS, ExpressJS, MySQL, PostgreSQL, MongoDB"
+        Desc: "NodeJS, ExpressJS, NestJS, FastApi"
         
     },
     {
@@ -16,7 +16,15 @@ export const skillList = [
         Desc: "Javascript, Typescript, Python, C#"
     },
     {
+        Title: "Databases",
+        Desc:"MySQL, PostgreSQL, MongoDB, FireBase"
+    },
+    {
+        Title:"Cloud services",
+        Desc: "AWS, Azure"
+    },
+    {
         Title: "Other",
-        Desc: "Git, Bash/Powershell, NPM, Visual studio code, Visual studio, Github, Gitlab, AWS, Jira, Bitbucket"
+        Desc: "Git, Bash/Powershell, Visual studio code, Visual studio, Github, Gitlab, Jira, Bitbucket, Contentful"
     }
 ]

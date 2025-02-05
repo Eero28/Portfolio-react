@@ -28,7 +28,7 @@ function Home() {
         </div>
         
       </div>
-      <h1>Skills</h1>
+      <h1 className='skills-title'>Skills</h1>
       <section className='skills'>
         {skillList.map((skill, index) => {
           return <div key={index} className='skillsItem'>
