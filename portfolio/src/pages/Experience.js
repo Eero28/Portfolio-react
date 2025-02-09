@@ -48,7 +48,7 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
           Jamk University of Applied Sciences
           </h3>
-          <h3>2020 --></h3>
+          <h3>Graduated (2020–2024)</h3>
 
           <h4 className="vertical-timeline-element-subtitle">
             Bachelor's Degree
