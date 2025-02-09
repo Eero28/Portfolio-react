@@ -32,7 +32,7 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">
             Warehouse worker
           </h4>
-          <h3>Fulltime 2018-2020 -> Summer jobs</h3>
+          <h3>Fulltime 2018-2020 + Summer jobs</h3>
           <p>
             Managing and packing customer orders
           </p>
