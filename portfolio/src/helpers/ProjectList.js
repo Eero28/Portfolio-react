@@ -13,6 +13,7 @@ export const projectList = [
         about: "Uses CRUD operations and displays items to the screen",
         link: "https://github.com/Eero556/Bowshop/blob/main/OMA-projekti/Dokumentaatio/Dokumentaatio.md",
         video: "https://www.veed.io/embed/99867d54-432d-4750-a20b-8ac7b0dd3c87",
+        videoLink:"https://www.veed.io/view/99867d54-432d-4750-a20b-8ac7b0dd3c87?panel=share",
         date:"11.12.2021"
     },
     {
@@ -22,6 +23,7 @@ export const projectList = [
         image: leaflet,
         link: "https://github.com/Eero556/React-apps/tree/main/Homework/golfcourses",
         video: "https://www.veed.io/embed/b29af46d-6943-4898-a473-148f258143bc",
+        videoLink:"https://www.veed.io/view/b29af46d-6943-4898-a473-148f258143bc?panel=share",
         date:"20.8.2022"
     },
     {
@@ -31,6 +33,7 @@ export const projectList = [
         image: reactWeather,
         link: "https://github.com/Eero556/React-apps/tree/main/Homework/weather-app",
         video: "https://www.veed.io/embed/357b0037-17a0-45fa-9831-66e2c533eab9",
+        videoLink:"https://www.veed.io/view/357b0037-17a0-45fa-9831-66e2c533eab9?panel=share",
         date:"25.8.2022"
     },
     {
@@ -40,6 +43,7 @@ export const projectList = [
         image: movienative,
         link: "https://github.com/Eero556/React-native-apps/tree/main/Homework/Movies",
         video: "https://www.veed.io/embed/3cb363b2-fb3c-4d09-b818-01825b012465",
+        videoLink:"https://www.veed.io/view/3cb363b2-fb3c-4d09-b818-01825b012465?panel=share",
         date:"10.9.2020"
 
     },
@@ -50,6 +54,7 @@ export const projectList = [
         about: "Tracking crypto coins prices",
         link: "https://github.com/Eero556/Crypto-Tracker/blob/main/Doku/dokumentation.md",
         video: "https://veed.io/embed/3d1b237d-01e4-4ac5-b949-4e17d2f88c18",
+        videoLink:"https://www.veed.io/view/3d1b237d-01e4-4ac5-b949-4e17d2f88c18?panel=share",
         date:"8.12.2022"
     },
     {

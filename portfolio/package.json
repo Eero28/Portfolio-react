@@ -13,14 +13,18 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
+    "i18next": "^25.2.1",
+    "i18next-browser-languagedetector": "^8.2.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^15.5.3",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-social-icons": "^5.15.0",
     "react-vertical-timeline-component": "^3.5.2",
     "sass": "^1.56.1",
+    "typescript": "^5.8.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

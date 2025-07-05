@@ -1,96 +1,100 @@
-import React from "react";
-import {VerticalTimeline,VerticalTimelineElement} from "react-vertical-timeline-component";
+import { useTranslation } from "react-i18next";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import SchoolIcon from '@mui/icons-material/School';
-import WorkIcon from '@mui/icons-material/Work';
-import AtmIcon from '@mui/icons-material/Atm';
-
+import SchoolIcon from "@mui/icons-material/School";
+import WorkIcon from "@mui/icons-material/Work";
+import AtmIcon from "@mui/icons-material/Atm";
 
 function Experience() {
+  const { t } = useTranslation();
+
   return (
     <section className="experience">
       <VerticalTimeline lineColor="#3e497a">
+
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Martinlaakso high school 2014 - 2017
+            {t("experience.highschool")}
           </h3>
-          <p> High School Diploma</p>
+          <p>{t("experience.highschool_diploma")}</p>
         </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Kesko 
+            {t("experience.kesko_position")} – {t("experience.kesko_title")}
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Warehouse worker
+            {t("experience.kesko_dates")}
           </h4>
-          <h3>Fulltime 2018-2020 + Summer jobs</h3>
-          <p>
-            Managing and packing customer orders
-          </p>
-          <h4>Referee</h4>
-          <p>Antti Heikkinen</p>
-          <span>Ask for contact information</span>
+          <p>{t("experience.kesko_description")}</p>
+          <h4>{t("experience.referee")}: {t("experience.kesko_referee_name")}</h4>
+          <span>{t("experience.ask_contact")}</span>
         </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-          Jamk University of Applied Sciences
+            {t("experience.jamk")}
           </h3>
-          <h3>Graduated (2020–2024)</h3>
-
           <h4 className="vertical-timeline-element-subtitle">
-            Bachelor's Degree
+            {t("experience.jamk_degree")}
           </h4>
-          <p> Information and Communication Technology</p>
+          <p>
+            {t("experience.jamk_major")}<br />
+            {t("experience.jamk_dates")}
+          </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--education"
+          className="vertical-timeline-element--work"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-          Wärtsilä as software developer trainee
+            {t("experience.wartsila_title")}
           </h3>
-          <h3>2.5.2023 --> 30.9.2023</h3>
-          <p>Software Development</p>
-          <h4>Referee</h4>
-          <p>Sachie Yoshizumi</p>
-          <span>Ask for contact information</span>
+          <h4 className="vertical-timeline-element-subtitle">
+            {t("experience.wartsila_dates")}
+          </h4>
+          <p>{t("experience.wartsila_description")}</p>
+          <h4>{t("experience.referee")}: {t("experience.wartsila_referee_name")}</h4>
+          <span>{t("experience.ask_contact")}</span>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--education"
+          className="vertical-timeline-element--work"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-          Thesis at Valmet
+            {t("experience.valmet_title")}
           </h3>
-          <p>Implement Rek.ai to Valmet.com</p>
-          <h4>Referee</h4>
-          <p>Niko Siltanen</p>
-          <span>Ask for contact information</span>
+          <p>{t("experience.valmet_description")}</p>
+          <h4>{t("experience.referee")}: {t("experience.valmet_referee_name")}</h4>
+          <span>{t("experience.ask_contact")}</span>
         </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<AtmIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-          Seeking a junior or entry-level software development opportunities 
+            {t("experience.looking_for_job")}
           </h3>
         </VerticalTimelineElement>
       </VerticalTimeline>

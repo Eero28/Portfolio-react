@@ -1,85 +1,107 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .project {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-color: #0d1117;
-
-    h1 {
-        margin-top: 30px;
-        color: whitesmoke;
-        font-size: 35px;
-    }
-
-    img {
-        max-width: 60%;
-        height: auto;
-        border-radius: 10px;
-        margin-top: 20px;
-    }
-
-    p {
-        font-size: 24px;
-        color: whitesmoke;
-    }
-
-    svg {
-        font-size: 60px;
-        color: whitesmoke;
-    }
+  width: 100%;
+  padding: 2em 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0d1117;
+  color: whitesmoke;
+  text-align: center;
 }
 
+.project h1 {
+  margin: 1em 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
 
+.project img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 10px;
+  margin: 1.5em 0;
+  transition: transform 0.3s ease-in-out;
+}
 
+.project img:hover {
+  transform: scale(1.03);
+}
+
+.project p {
+  font-size: 1.25rem;
+  max-width: 800px;
+}
+
+.videoLink{
+    padding: 0.1em;
+}
+
+.project svg {
+  font-size: 3rem;
+  margin: 0.5em 0;
+}
 
 .videoframe {
-    width: 50%;
-    height: 600px;
-    padding: 2em;
+  width: 50%;
+  height: 600px;
+  padding: 2em;
+  border: none;
 }
 
-
-
-
 .link {
-    text-decoration: none;
-    margin-top: 1em;
-    color: black;
-    cursor: pointer;
+  color: #1f6feb;
+  text-decoration: none;
+  margin-top: 1em;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #58a6ff;
 }
 
 label {
-    color: whitesmoke;
-    padding: 1em;
-    cursor: pointer;
+  color: whitesmoke;
+  padding: 1em;
+  cursor: pointer;
 }
 
 button {
-    padding: 0.5em;
-    margin-bottom: 1em;
+  padding: 0.75em 1.5em;
+  margin: 1em 0;
+  background-color: #1f6feb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
 }
 
+button:hover {
+  background-color: #3b8eff;
+}
 
 @media only screen and (max-width: 800px) {
-    .videoframe {
-        width: 100%;
+  .videoframe {
+    width: 100%;
+    height: auto;
+  }
 
-    }
+  .project h1 {
+    font-size: 2rem;
+    margin: 0.5em;
+  }
 
-    .project h1 {
-        margin: 0 1em;
-    }
+  .project p {
+    font-size: 1rem;
+    margin: 1em;
+  }
 
-    .project p {
-        margin: 1em 1em;
-    }
-
-
+  .project img {
+    max-width: 90%;
+  }
 }
