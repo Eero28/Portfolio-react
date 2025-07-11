@@ -1,7 +1,7 @@
 
 
 export const skillList = [
-  { Title: "skills.frontend", Desc: "ReactJS, React Native, HTML, CSS, Bootstrap, SCSS" },
+  { Title: "skills.frontend", Desc: "ReactJS, NextJs, React Native, HTML, CSS, Bootstrap, SCSS" },
   { Title: "skills.backend", Desc: "NodeJS, ExpressJS, NestJS, FastAPI" },
   { Title: "skills.languages", Desc: "JavaScript, TypeScript, Python, C#" },
   { Title: "skills.databases", Desc: "MySQL, PostgreSQL, MongoDB, Firebase" },
